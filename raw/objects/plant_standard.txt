@@ -287,6 +287,8 @@ plant_standard
 	[FREQUENCY:100]
 	[CLUSTERSIZE:5]
 	[PREFSTRING:twisting shape]
+	[SHRUB_TILE:10]
+	[DEAD_SHRUB_TILE:10]
 
 [PLANT:TUBER_BLOATED]
 	[NAME:bloated tuber][NAME_PLURAL:bloated tubers][ADJ:bloated tuber]
@@ -315,6 +317,8 @@ plant_standard
 	[FREQUENCY:50]
 	[CLUSTERSIZE:5]
 	[PREFSTRING:stout shape]
+	[SHRUB_TILE:10]
+	[DEAD_SHRUB_TILE:10]
 
 [PLANT:BULB_KOBOLD]
 	[NAME:kobold bulb][NAME_PLURAL:kobold bulbs][ADJ:kobold bulb]
@@ -347,6 +351,8 @@ plant_standard
 	[FREQUENCY:5]
 	[CLUSTERSIZE:1]
 	[PREFSTRING:shrouded history]
+	[SHRUB_TILE:10]
+	[DEAD_SHRUB_TILE:10]
 
 [PLANT:BERRIES_PRICKLE]
 	[NAME:prickle berry][NAME_PLURAL:prickle berries][ADJ:prickle berry]
@@ -379,6 +385,8 @@ plant_standard
 	[FREQUENCY:100]
 	[CLUSTERSIZE:5]
 	[PREFSTRING:precise thorns]
+	[SHRUB_TILE:10]
+	[DEAD_SHRUB_TILE:10]
 
 [PLANT:BERRIES_STRAW]
 	[NAME:strawberry plant][NAME_PLURAL:strawberry plants][ADJ:strawberry plant]
@@ -417,6 +425,8 @@ plant_standard
 	[FREQUENCY:50]
 	[CLUSTERSIZE:5]
 	[PREFSTRING:vivid red color]
+	[SHRUB_TILE:10]
+	[DEAD_SHRUB_TILE:10]
 	[GROWTH:FRUIT]
 		[GROWTH_NAME:strawberry:strawberries]
 		[GROWTH_ITEM:PLANT_GROWTH:NONE:LOCAL_PLANT_MAT:FRUIT]
@@ -465,6 +475,8 @@ plant_standard
 	[FREQUENCY:50]
 	[CLUSTERSIZE:5]
 	[PREFSTRING:sweeping stalks]
+	[SHRUB_TILE:10]
+	[DEAD_SHRUB_TILE:10]
 
 [PLANT:HERB_VALLEY]
 	[NAME:valley herb][NAME_PLURAL:valley herbs][ADJ:valley herb]
@@ -489,6 +501,8 @@ plant_standard
 	[CLUSTERSIZE:1]
 	[PREFSTRING:tiny leaves]
 	[PREFSTRING:soothing fragrance]
+	[SHRUB_TILE:10]
+	[DEAD_SHRUB_TILE:10]
 
 [PLANT:WEED_RAT]
 	[NAME:rat weed][NAME_PLURAL:rat weed][ADJ:rat weed]
@@ -520,6 +534,8 @@ plant_standard
 		[EDIBLE_VERMIN]
 		[EDIBLE_COOKED]
 	[SEED:rat weed seed:rat weed seeds:0:0:1:LOCAL_PLANT_MAT:SEED]
+	[SHRUB_TILE:10]
+	[DEAD_SHRUB_TILE:10]
 
 [PLANT:BERRIES_FISHER]
 	[NAME:fisher berry][NAME_PLURAL:fisher berries][ADJ:fisher berry]
@@ -552,6 +568,8 @@ plant_standard
 		[EDIBLE_VERMIN]
 		[EDIBLE_COOKED]
 	[SEED:fisher berry seed:fisher berry seeds:0:0:1:LOCAL_PLANT_MAT:SEED]
+	[SHRUB_TILE:10]
+	[DEAD_SHRUB_TILE:10]
 
 [PLANT:REED_ROPE]
 	[NAME:rope reed][NAME_PLURAL:rope reeds][ADJ:rope reed]
@@ -584,6 +602,8 @@ plant_standard
 		[EDIBLE_VERMIN]
 		[EDIBLE_COOKED]
 	[SEED:rope reed seed:rope reed seeds:6:0:0:LOCAL_PLANT_MAT:SEED]
+	[SHRUB_TILE:10]
+	[DEAD_SHRUB_TILE:10]
 
 [PLANT:MUSHROOM_CUP_DIMPLE]
 	[NAME:dimple cup][NAME_PLURAL:dimple cups][ADJ:dimple cup]
@@ -641,6 +661,8 @@ plant_standard
 		[EDIBLE_VERMIN]
 		[EDIBLE_COOKED]
 	[SEED:blade weed seed:blade weed seeds:0:0:1:LOCAL_PLANT_MAT:SEED]
+	[SHRUB_TILE:10]
+	[DEAD_SHRUB_TILE:10]
 
 [PLANT:ROOT_HIDE]
 	[NAME:hide root][NAME_PLURAL:hide root][ADJ:hide root]
@@ -666,6 +688,8 @@ plant_standard
 		[EDIBLE_VERMIN]
 		[EDIBLE_COOKED]
 	[SEED:hide root seed:hide root seeds:4:0:0:LOCAL_PLANT_MAT:SEED]
+	[SHRUB_TILE:10]
+	[DEAD_SHRUB_TILE:10]
 
 [PLANT:SLIVER_BARB]
 	[NAME:sliver barb][NAME_PLURAL:sliver barbs][ADJ:sliver barb]
@@ -702,6 +726,8 @@ plant_standard
 		[EDIBLE_VERMIN]
 		[EDIBLE_COOKED]
 	[SEED:sliver barb seed:sliver barb seeds:4:0:1:LOCAL_PLANT_MAT:SEED]
+	[SHRUB_TILE:10]
+	[DEAD_SHRUB_TILE:10]
 
 [PLANT:BERRY_SUN]
 	[NAME:sun berry][NAME_PLURAL:sun berries][ADJ:sun berry]
@@ -734,6 +760,8 @@ plant_standard
 		[EDIBLE_VERMIN]
 		[EDIBLE_COOKED]
 	[SEED:sun berry seed:sun berry seeds:4:0:1:LOCAL_PLANT_MAT:SEED]
+	[SHRUB_TILE:10]
+	[DEAD_SHRUB_TILE:10]
 
 [PLANT:VINE_WHIP]
 	[NAME:whip vine][NAME_PLURAL:whip vines][ADJ:whip vine]
@@ -771,6 +799,8 @@ plant_standard
 		[EDIBLE_VERMIN]
 		[EDIBLE_COOKED]
 	[SEED:whip vine seed:whip vine seeds:0:0:1:LOCAL_PLANT_MAT:SEED]
+	[SHRUB_TILE:10]
+	[DEAD_SHRUB_TILE:10]
 
 Uristocrat did the density values.
 

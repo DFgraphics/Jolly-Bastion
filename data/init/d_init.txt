@@ -1,4 +1,4 @@
-[TEMPERATURE:YES]WARNING: Do NOT copy over the d_init.txt from an earlier version of DF.
+WARNING: Do NOT copy over the d_init.txt from an earlier version of DF.
 Always read the file carefully, including the comments.
 
 In general, you can copy savegames and tilesets from older DF
