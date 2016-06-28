@@ -16,13 +16,13 @@ circumstances, unpack a new DF on top of an older one.
 
 
 Use these to control the automatic saving behavior in the dwarf fortress mode of game.  AUTOSAVE can be set to NONE, SEASONAL or YEARLY.  This updates your save at these intervals, so that some of your progress will be saved in case of system instability.  You can set AUTOBACKUP to YES if you want the updated save to be copied to another folder so that you'll have several copies of your world at different times.  Set AUTOSAVE_PAUSE to YES if you want the game to pause every time it autosaves.
-[AUTOSAVE:SEASONAL]
+[AUTOSAVE:YEARLY]
 [AUTOBACKUP:NO]
 [AUTOSAVE_PAUSE:YES]
 
 Set this to YES if you want it to save the game when you start a new fortress.  If AUTOBACKUP above is set to YES, it will also create a copy of this new save.
 
-[INITIAL_SAVE:YES]
+[INITIAL_SAVE:NO]
 
 Set this to NO to make Dwarf Fortress remain in the saved pause state when you load an active game.
 
@@ -44,7 +44,7 @@ Use these options to remove features from the game.  Permitted values are YES an
 
 [TEMPERATURE:YES]
 [WEATHER:YES]
-[ECONOMY:NO]
+[ECONOMY:YES]
 [INVADERS:YES]
 [CAVEINS:YES]
 [ARTIFACTS:YES]
@@ -76,7 +76,7 @@ Alter these options to control how aggressively your dwarves place objects in a 
 
 Change this to YES to disallow pets from coffin burial as the default option.
 
-[COFFIN_NO_PETS_DEFAULT:YES]
+[COFFIN_NO_PETS_DEFAULT:NO]
 
 Use these to set the color of wounded body parts.  The format is <foreground color>:<background color>:<brightness>.
 
@@ -239,11 +239,6 @@ Tiles for the parts of trees.
 [TREE_TRUNK_INTERIOR:10]
 [TREE_TRUNK_INTERIOR_DEAD:10]
 
-Use the specific seed cap to set the maximum number of seeds of each kind generally allowed in the fortress.  Use the fortress seed cap to control the overall number of seeds allowed.  Seeds over the global cap will be periodically removed, starting with the oldest and most worthless seeds.
-
-[SPECIFIC_SEED_CAP:200]
-[FORTRESS_SEED_CAP:3000]
-
 This controls the "IDLERS: <number>" that is displayed in dwarf mode.  You can set it to TOP, BOTTOM or OFF.
 
 [IDLERS:TOP]
@@ -252,7 +247,7 @@ You can have your dwarves start/arrive without any labor types enabled here by s
 
 [SET_LABOR_LISTS:SKILLS]
 
-You can set the maximum population of your fortress here.  Keep in mind that your population must be at least 80 to get a king and 100 to obtain the current game features.
+You can set the maximum population of your fortress here.  Keep in mind that your population must be at least 80 to get a king and 100 to obtain the current game features.  The strict cap also stops fort births.  Both caps can be violated by a few special cases, like the arrival of the monarch if you qualify.
 
 [POPULATION_CAP:120]
 [STRICT_POPULATION_CAP:220]
