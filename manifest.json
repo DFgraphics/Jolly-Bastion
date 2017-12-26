@@ -1,9 +1,9 @@
 {
-    "author": "Alexander Ocias",
-    "content_version": "",
+    "author": "AlexanderOcias",
+    "url": "http://www.bay12forums.com/smf/index.php?topic=104261.0",
+    "content_version": "34-10v5 (2015-02-23)",
     "df_min_version": "0.43.04",
-    "df_max_version": "0.43.05",
-    "title": "Jolly Bastion 12px",
-    "folder_prefix": "Jolly Bastion",
-    "tooltip": "This set is about Injecting some more personality and brightness\ninto the visuals of DF, making important stuff easier to see,\nsmoothing over unimportant things."
+    "df_max_version": "0.44.03",
+    "title": "Jolly Bastion 12x",
+    "tooltip": "Bright and ☼Fun☼ tileset prioritizes making important objects easier to see."
 }

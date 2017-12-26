@@ -43,15 +43,15 @@ If this is set to YES, the tiles will not be stretched, but rather the game view
 
 [BLACK_SPACE:YES]
 
-Graphics info, most of it as above.  Set GRAPHICS to YES to turn it all on.  This will use the "raw/graphics" folder for tile information.  Currently this is limited to whatever creature graphics you have downloaded.  The game comes with a few pictures to demonstrate.  As of July 2016, the Dwarf Fortress Wiki has custom tilesets available at http://dwarffortresswiki.org/index.php/Tileset_repository and creature graphics at http://dwarffortresswiki.org/index.php/Graphics_set_repository.
+Graphics info, most of it as above.  Set GRAPHICS to YES to turn it all on.  This will use the "raw/graphics" folder for tile information.  Currently this is limited to whatever creature graphics you have downloaded.  The game comes with a few pictures to demonstrate.  As of November 2017, the Dwarf Fortress Wiki has custom tilesets available at http://dwarffortresswiki.org/index.php/Tileset_repository and creature graphics at http://dwarffortresswiki.org/index.php/Graphics_set_repository.
 
-[GRAPHICS:NO]
+[GRAPHICS:YES]
 [GRAPHICS_WINDOWEDX:0]
 [GRAPHICS_WINDOWEDY:0]
-[GRAPHICS_FONT:jolly9x12.png]
+[GRAPHICS_FONT:jolly12x12.png]
 [GRAPHICS_FULLSCREENX:0]
 [GRAPHICS_FULLSCREENY:0]
-[GRAPHICS_FULLFONT:jolly9x12.png]
+[GRAPHICS_FULLFONT:jolly12x12.png]
 [GRAPHICS_BLACK_SPACE:YES]
 
 These settings can have a significant impact on frame rate, especially for people that have slow frame rates on the title screen.  Available modes are 2D, 2DSW, 2DASYNC, STANDARD, PARTIAL:<number>, ACCUM_BUFFER, FRAME_BUFFER and VBO. The number after PARTIAL refers to how many frames it will redo a printed tile before skipping it, so you might try increasing it a bit if you have flickering when PARTIAL is set.  Please note that any of these combinations might cause frame rates to drop significantly or cause unpleasant side effects like flickering.
@@ -64,7 +64,7 @@ On a multi-core machine none of this is very likely to matter; stick to 2D.
 
 Linux/OS X users may also use PRINT_MODE:TEXT for primitive ncurses output.
 
-[PRINT_MODE:2D]
+[PRINT_MODE:TWBT]
 	Mode examples:
 	 PRINT_MODE:2D
 	 PRINT_MODE:TEXT
